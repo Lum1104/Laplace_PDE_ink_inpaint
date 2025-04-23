@@ -10,17 +10,17 @@ $$u_{i,j} = \frac{1}{4}(u_{i+1,j} + u_{i-1,j} + u_{i,j+1} + u_{i,j-1})$$
 ## Directory Structure
 ```
 .
-├── img/                       # Input image folder  
-│   └── 0.jpeg                 # Example input image  
-├── results/                   # Output results folder  
-│   ├── original.png           # Original image  
-│   ├── damaged.png            # Damaged image  
-│   ├── inpainted_laplace.png  # Image inpainted by Laplace PDE  
-│   ├── mean_filter.png        # Image inpainted by Mean Filter  
-│   ├── gaussian_filter.png    # Image inpainted by Gaussian Filter  
-│   └── mask.png               # Drawn mask  
-│   └── comparison_all_methods.png# Comparison chart of all methods  
-└── inpaint.py                    # Main code file of the project  
+├── img/                           # Input image folder  
+│   └── 0.jpeg                     # Example input image  
+├── results/                       # Output results folder  
+│   ├── original.png               # Original image  
+│   ├── damaged.png                # Damaged image  
+│   ├── inpainted_laplace.png      # Image inpainted by Laplace PDE  
+│   ├── mean_filter.png            # Image inpainted by Mean Filter  
+│   ├── gaussian_filter.png        # Image inpainted by Gaussian Filter  
+│   └── mask.png                   # Drawn mask  
+│   └── comparison_all_methods.png # Comparison chart of all methods  
+└── inpaint.py                     # Main code file of the project  
 ```
 ## Function Overview
 
