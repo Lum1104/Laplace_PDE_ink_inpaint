@@ -1,5 +1,7 @@
 # Image Inpainting Algorithms Implementation
 
+**Implementation of ECE 6560 course final project - Yuxiang Lin**
+
 This project implements the Laplace equation-based Partial Differential Equation (PDE) image inpainting algorithm and compares it with traditional filtering methods (mean filtering and Gaussian filtering). It demonstrates the differences in the repair effects of various methods and their performance metrics, aiming to explore and compare the effects and characteristics of different image inpainting techniques in practical applications and provide references for image inpainting tasks.
 
 $$u_{i,j} = \frac{1}{4}(u_{i+1,j} + u_{i-1,j} + u_{i,j+1} + u_{i,j-1})$$
